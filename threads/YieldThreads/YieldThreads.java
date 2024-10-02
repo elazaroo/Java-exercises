@@ -13,6 +13,6 @@ public class YieldThreads extends Thread
             System.out.println(i + " " + getName());
             Thread.yield();
         }
-        System.out.println("Fin! " + getName());
+        System.out.println("End! " + getName());
     }
 }

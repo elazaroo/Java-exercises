@@ -12,6 +12,6 @@ public class SimpleThread1 extends Thread
         {
             System.out.println(i + " " + getName());
         }
-        System.out.println("Fin " + getName());
+        System.out.println("End! " + getName());
     }
 }
