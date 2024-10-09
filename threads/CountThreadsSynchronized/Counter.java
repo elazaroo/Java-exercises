@@ -5,6 +5,11 @@ public class Counter {
 
     public synchronized int incCounter(int count) {
         counter += count;
+        try {
+            Thread.sleep((long) (Math.random() * 100));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return counter;
     }
 }
