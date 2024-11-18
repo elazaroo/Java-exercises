@@ -8,7 +8,7 @@ This repository contains practical Java exercises designed to explore fundamenta
 - Shows how to run operating system processes from Java using `Runtime.exec`.
 - Basic example that opens notepad on Windows systems.
 
-2. **Threads 
+2. **Threads**
 - Contains specific exercises on thread management in Java, covering topics such as synchronization, thread pools, and inter-thread communication.
 
 3. **Other topics**. 
