@@ -1,4 +1,4 @@
-package rmi;
+package rmi.Example;
 
 import java.io.*;
 import java.rmi.*;
